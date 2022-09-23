@@ -3,6 +3,8 @@
     <v-navigation-drawer
       v-if="$vuetify.breakpoint.smAndDown"
       v-model="drawer"
+      :mini-variant="miniVariant"
+      :clipped="clipped"
       fixed
       app
     >
@@ -23,11 +25,14 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
     <v-app-bar v-if="$vuetify.breakpoint.smAndDown" :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
-  
+    <v-main>
+      <v-container>
+        <Nuxt />
+      </v-container>
+    </v-main>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
