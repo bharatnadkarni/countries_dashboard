@@ -7,25 +7,25 @@ export default ($axios) => {
         async getCountries(){
             try {
                 const response = await $axios.get(constants.ALL_COUNTRIES)
-                return response
+                return response.data
             } catch (error) {
-                return null
+                return []
             }
         },
         async searchCountries(term){
             try {
                 const response = await $axios.get(`${constants.COUNTRY_SEARCH}/${term}?fields=name,flags`)
-                return response
+                return response.data
             } catch (error) {
-                return null
+                return []
             }
         },
         async getSingleCountry(name){
             try {
-                const response = await $axios.get(`${constants.SINGLE_COUNTRY}/${name}?fullText=true`)
-                return response
+                const response = await $axios.get(`${constants.SINGLE_COUNTRY}/${name}`)
+                return response.data
             } catch (error) {
-                return null
+                return {}
             }
         }
     }
