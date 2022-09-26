@@ -17,7 +17,20 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/76cad44852ba93f820a16d446f80c5e2?family=GT+America+Light'},
+      {rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/e7d1af8e72502b31afdf671010e5898b?family=Druk+Cyr'}
+    ],
+    script: [
+      {
+        src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCCvN0wkrtBqyOAvF2NAmQlHDWrfMtxscg&libraries=places'
+      },
+      {
+        src: 'https://www.gstatic.com/charts/loader.js'
+      }
+    ]
+    
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,7 +49,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
@@ -47,6 +60,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-leaflet'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

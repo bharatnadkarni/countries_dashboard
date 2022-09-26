@@ -1,0 +1,461 @@
+[
+    {
+        "name": "Afghanistan",
+        "nativeName": "افغانستان",
+        "flags": {
+            "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+            "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Åland Islands",
+        "nativeName": "Åland",
+        "flags": {
+            "svg": "https://flagcdn.com/ax.svg",
+            "png": "https://flagcdn.com/w320/ax.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Albania",
+        "nativeName": "Shqipëria",
+        "flags": {
+            "svg": "https://flagcdn.com/al.svg",
+            "png": "https://flagcdn.com/w320/al.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Algeria",
+        "nativeName": "الجزائر",
+        "flags": {
+            "svg": "https://flagcdn.com/dz.svg",
+            "png": "https://flagcdn.com/w320/dz.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "American Samoa",
+        "nativeName": "American Samoa",
+        "flags": {
+            "svg": "https://flagcdn.com/as.svg",
+            "png": "https://flagcdn.com/w320/as.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Andorra",
+        "nativeName": "Andorra",
+        "flags": {
+            "svg": "https://flagcdn.com/ad.svg",
+            "png": "https://flagcdn.com/w320/ad.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Angola",
+        "nativeName": "Angola",
+        "flags": {
+            "svg": "https://flagcdn.com/ao.svg",
+            "png": "https://flagcdn.com/w320/ao.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Anguilla",
+        "nativeName": "Anguilla",
+        "flags": {
+            "svg": "https://flagcdn.com/ai.svg",
+            "png": "https://flagcdn.com/w320/ai.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Antarctica",
+        "nativeName": "Antarctica",
+        "flags": {
+            "svg": "https://flagcdn.com/aq.svg",
+            "png": "https://flagcdn.com/w320/aq.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "nativeName": "Antigua and Barbuda",
+        "flags": {
+            "svg": "https://flagcdn.com/ag.svg",
+            "png": "https://flagcdn.com/w320/ag.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Argentina",
+        "nativeName": "Argentina",
+        "flags": {
+            "svg": "https://flagcdn.com/ar.svg",
+            "png": "https://flagcdn.com/w320/ar.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Armenia",
+        "nativeName": "Հայաստան",
+        "flags": {
+            "svg": "https://flagcdn.com/am.svg",
+            "png": "https://flagcdn.com/w320/am.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Aruba",
+        "nativeName": "Aruba",
+        "flags": {
+            "svg": "https://flagcdn.com/aw.svg",
+            "png": "https://flagcdn.com/w320/aw.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Australia",
+        "nativeName": "Australia",
+        "flags": {
+            "svg": "https://flagcdn.com/au.svg",
+            "png": "https://flagcdn.com/w320/au.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Austria",
+        "nativeName": "Österreich",
+        "flags": {
+            "svg": "https://flagcdn.com/at.svg",
+            "png": "https://flagcdn.com/w320/at.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Azerbaijan",
+        "nativeName": "Azərbaycan",
+        "flags": {
+            "svg": "https://flagcdn.com/az.svg",
+            "png": "https://flagcdn.com/w320/az.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bahamas",
+        "nativeName": "Bahamas",
+        "flags": {
+            "svg": "https://flagcdn.com/bs.svg",
+            "png": "https://flagcdn.com/w320/bs.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bahrain",
+        "nativeName": "‏البحرين",
+        "flags": {
+            "svg": "https://flagcdn.com/bh.svg",
+            "png": "https://flagcdn.com/w320/bh.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bangladesh",
+        "nativeName": "Bangladesh",
+        "flags": {
+            "svg": "https://flagcdn.com/bd.svg",
+            "png": "https://flagcdn.com/w320/bd.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Barbados",
+        "nativeName": "Barbados",
+        "flags": {
+            "svg": "https://flagcdn.com/bb.svg",
+            "png": "https://flagcdn.com/w320/bb.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Belarus",
+        "nativeName": "Белару́сь",
+        "flags": {
+            "svg": "https://flagcdn.com/by.svg",
+            "png": "https://flagcdn.com/w320/by.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Belgium",
+        "nativeName": "België",
+        "flags": {
+            "svg": "https://flagcdn.com/be.svg",
+            "png": "https://flagcdn.com/w320/be.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Belize",
+        "nativeName": "Belize",
+        "flags": {
+            "svg": "https://flagcdn.com/bz.svg",
+            "png": "https://flagcdn.com/w320/bz.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Benin",
+        "nativeName": "Bénin",
+        "flags": {
+            "svg": "https://flagcdn.com/bj.svg",
+            "png": "https://flagcdn.com/w320/bj.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bermuda",
+        "nativeName": "Bermuda",
+        "flags": {
+            "svg": "https://flagcdn.com/bm.svg",
+            "png": "https://flagcdn.com/w320/bm.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bhutan",
+        "nativeName": "ʼbrug-yul",
+        "flags": {
+            "svg": "https://flagcdn.com/bt.svg",
+            "png": "https://flagcdn.com/w320/bt.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "nativeName": "Bolivia",
+        "flags": {
+            "svg": "https://flagcdn.com/bo.svg",
+            "png": "https://flagcdn.com/w320/bo.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "nativeName": "Bonaire",
+        "flags": {
+            "svg": "https://flagcdn.com/bq.svg",
+            "png": "https://flagcdn.com/w320/bq.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "nativeName": "Bosna i Hercegovina",
+        "flags": {
+            "svg": "https://flagcdn.com/ba.svg",
+            "png": "https://flagcdn.com/w320/ba.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Botswana",
+        "nativeName": "Botswana",
+        "flags": {
+            "svg": "https://flagcdn.com/bw.svg",
+            "png": "https://flagcdn.com/w320/bw.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bouvet Island",
+        "nativeName": "Bouvetøya",
+        "flags": {
+            "svg": "https://flagcdn.com/bv.svg",
+            "png": "https://flagcdn.com/w320/bv.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Brazil",
+        "nativeName": "Brasil",
+        "flags": {
+            "svg": "https://flagcdn.com/br.svg",
+            "png": "https://flagcdn.com/w320/br.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "nativeName": "British Indian Ocean Territory",
+        "flags": {
+            "svg": "https://flagcdn.com/io.svg",
+            "png": "https://flagcdn.com/w320/io.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "nativeName": "United States Minor Outlying Islands",
+        "flags": {
+            "svg": "https://flagcdn.com/um.svg",
+            "png": "https://flagcdn.com/w320/um.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Virgin Islands (British)",
+        "nativeName": "British Virgin Islands",
+        "flags": {
+            "svg": "https://flagcdn.com/vg.svg",
+            "png": "https://flagcdn.com/w320/vg.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Virgin Islands (U.S.)",
+        "nativeName": "Virgin Islands of the United States",
+        "flags": {
+            "svg": "https://flagcdn.com/vi.svg",
+            "png": "https://flagcdn.com/w320/vi.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Brunei Darussalam",
+        "nativeName": "Negara Brunei Darussalam",
+        "flags": {
+            "svg": "https://flagcdn.com/bn.svg",
+            "png": "https://flagcdn.com/w320/bn.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Bulgaria",
+        "nativeName": "България",
+        "flags": {
+            "svg": "https://flagcdn.com/bg.svg",
+            "png": "https://flagcdn.com/w320/bg.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Burkina Faso",
+        "nativeName": "Burkina Faso",
+        "flags": {
+            "svg": "https://flagcdn.com/bf.svg",
+            "png": "https://flagcdn.com/w320/bf.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Burundi",
+        "nativeName": "Burundi",
+        "flags": {
+            "svg": "https://flagcdn.com/bi.svg",
+            "png": "https://flagcdn.com/w320/bi.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Cambodia",
+        "nativeName": "Kâmpŭchéa",
+        "flags": {
+            "svg": "https://flagcdn.com/kh.svg",
+            "png": "https://flagcdn.com/w320/kh.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Cameroon",
+        "nativeName": "Cameroon",
+        "flags": {
+            "svg": "https://flagcdn.com/cm.svg",
+            "png": "https://flagcdn.com/w320/cm.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Canada",
+        "nativeName": "Canada",
+        "flags": {
+            "svg": "https://flagcdn.com/ca.svg",
+            "png": "https://flagcdn.com/w320/ca.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Cabo Verde",
+        "nativeName": "Cabo Verde",
+        "flags": {
+            "svg": "https://flagcdn.com/cv.svg",
+            "png": "https://flagcdn.com/w320/cv.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Cayman Islands",
+        "nativeName": "Cayman Islands",
+        "flags": {
+            "svg": "https://flagcdn.com/ky.svg",
+            "png": "https://flagcdn.com/w320/ky.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Central African Republic",
+        "nativeName": "Ködörösêse tî Bêafrîka",
+        "flags": {
+            "svg": "https://flagcdn.com/cf.svg",
+            "png": "https://flagcdn.com/w320/cf.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Chad",
+        "nativeName": "Tchad",
+        "flags": {
+            "svg": "https://flagcdn.com/td.svg",
+            "png": "https://flagcdn.com/w320/td.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Chile",
+        "nativeName": "Chile",
+        "flags": {
+            "svg": "https://flagcdn.com/cl.svg",
+            "png": "https://flagcdn.com/w320/cl.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "China",
+        "nativeName": "中国",
+        "flags": {
+            "svg": "https://flagcdn.com/cn.svg",
+            "png": "https://flagcdn.com/w320/cn.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Christmas Island",
+        "nativeName": "Christmas Island",
+        "flags": {
+            "svg": "https://flagcdn.com/cx.svg",
+            "png": "https://flagcdn.com/w320/cx.png"
+        },
+        "independent": false
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "nativeName": "Cocos (Keeling) Islands",
+        "flags": {
+            "svg": "https://flagcdn.com/cc.svg",
+            "png": "https://flagcdn.com/w320/cc.png"
+        },
+        "independent": false
+    }
+]
