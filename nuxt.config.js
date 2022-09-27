@@ -19,8 +19,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/76cad44852ba93f820a16d446f80c5e2?family=GT+America+Light'},
-      {rel: 'stylesheet', type: 'text/css', href: '//db.onlinewebfonts.com/c/e7d1af8e72502b31afdf671010e5898b?family=Druk+Cyr'}
+      {rel: 'stylesheet', type: 'text/css', href: 'https://db.onlinewebfonts.com/c/76cad44852ba93f820a16d446f80c5e2?family=GT+America+Light'},
+      {rel: 'stylesheet', type: 'text/css', href: 'https://db.onlinewebfonts.com/c/e7d1af8e72502b31afdf671010e5898b?family=Druk+Cyr'}
     ],
     script: [
       {
