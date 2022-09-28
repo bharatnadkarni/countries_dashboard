@@ -105,9 +105,7 @@ export default {
     isMoreDataAvailable() {
     // A Computed function to check if the list has more info to load. Returning false removes the intersection observer from the
     // DOM so that no more pagination functions are called.
-
-      console.log(Math.ceil(this.totalCount / this.pageSize) - 1)
-      console.log(this.pageLoaded)
+    
       return Math.ceil(this.totalCount / this.pageSize) - 1 > this.pageLoaded
     },
   },
@@ -124,7 +122,6 @@ export default {
       //  Calling the search API
 
       const response = await this.$services.searchCountries(term)
-      console.log("SEARCH -- ", response)
       this.displayList = response
       
     },
@@ -133,7 +130,6 @@ export default {
       //  Calling the list of countries api
 
       const response = await this.$services.getCountries()
-      console.log("LIST RESPONSE -- ",response)
       this.list = response
       if (this.$vuetify.breakpoint.smAndDown) {
         this.displayList = this.list
@@ -152,10 +148,8 @@ export default {
         // The setTimeout function is just to simulate the lag made by an api calls.
 
         setTimeout(() => {
-          console.log('Enters this too')
           const nextPage = this.pageLoaded + 1
           this.displayList = this.list.slice(0, this.pageSize * nextPage)
-          console.log(this.displayList)
           this.pageLoaded = nextPage
         }, 250)
       }
@@ -168,7 +162,6 @@ export default {
         let selectedCountry;
         this.$nuxt.$emit('loading', true)
         const response = await this.$services.getSingleCountry(e)
-        console.log(response)
         if(Object.keys(response).length === 0) {
             selectedCountry = {}
         } else {

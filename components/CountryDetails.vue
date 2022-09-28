@@ -26,7 +26,7 @@
             type="list-item-two-line"
           ></v-skeleton-loader>
           <div v-if="!loading">
-            <p class="mt-2"><b>Common Name:</b> {{ data.name.common }}</p>
+            <p class="mt-2 common_name"><b>Common Name:</b> {{ data.name.common }}</p>
             <p>
               <b>Native Name:</b>
               {{ showNativeNames(data.name.nativeName) }}
