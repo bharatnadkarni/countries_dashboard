@@ -222,7 +222,6 @@ export default {
             fields: ['place_id'],
           }
           service.findPlaceFromQuery(capitalRequest, (results2, status) => {
-            console.log(results2)
             place_id = results2[0].place_id
             this.getDetails(service, place_id)
           })
@@ -242,7 +241,6 @@ export default {
       }
 
       service.getDetails(request, (place, status) => {
-        console.log('Place --- ', place)
         this.place = place
         this.photosLoading = false
       })

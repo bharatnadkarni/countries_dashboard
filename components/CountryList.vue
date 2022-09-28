@@ -9,7 +9,7 @@
         rounded
         dense
         :items="displayList"
-        :search-input.sync="performSearch"
+        :search-input.sync="searchTerm"
         cache-items
         hide-no-data
         hide-details
@@ -28,11 +28,11 @@
         rounded
         dense
         placeholder="Search"
-        class="mt-4"
+        class="mt-4 desktop_search"
       >
       </v-text-field>
 
-      <v-list rounded class="overflow-y-auto pa-0" max-height="500">
+      <v-list rounded class="overflow-y-auto pa-0">
         <v-list-item-group class="list_group">
           <template v-for="country in displayList">
             <v-list-item
@@ -87,12 +87,14 @@ export default {
   },
   async mounted() {
     await this.fetchData()
+    this.handleResize()
+    
   },
   watch: {
     searchTerm() {
       //  Watching the search term to fire the performSearch api when the number of characters is 3 or more.
 
-      if (this.searchTerm.length >= 3) {
+      if (this.searchTerm && this.searchTerm.length >= 3) {
         this.performSearch(this.searchTerm)
         this.searching = true
       } else {
@@ -105,7 +107,7 @@ export default {
     isMoreDataAvailable() {
     // A Computed function to check if the list has more info to load. Returning false removes the intersection observer from the
     // DOM so that no more pagination functions are called.
-    
+
       return Math.ceil(this.totalCount / this.pageSize) - 1 > this.pageLoaded
     },
   },
@@ -123,6 +125,7 @@ export default {
 
       const response = await this.$services.searchCountries(term)
       this.displayList = response
+
       
     },
 
@@ -139,6 +142,7 @@ export default {
       } else {
         this.show_error = true
       }
+      
     },
 
     loadNextPage(entries) {
@@ -157,7 +161,6 @@ export default {
 
     async selectCountry(e) {
       // Function fired when a country is selected. Sets the state variable to the selected country and emits a loading = true
-
       if (e) {
         let selectedCountry;
         this.$nuxt.$emit('loading', true)
@@ -173,6 +176,20 @@ export default {
         this.$store.commit('setSelectedCountry', selectedCountry)
       }
     },
+    handleResize(){
+      // Fix for android where the menu is pushed up due to viewport being shortened in height when keyboard opens
+      window.addEventListener("resize", () => {
+          let height = window.innerHeight
+          if(height < 480){
+            let el = document.getElementsByClassName("v-autocomplete__content")[0]
+            if(el){
+              el.style.maxHeight = "150px"
+            }
+      
+          }
+      })
+
+    }
   },
 }
 </script>

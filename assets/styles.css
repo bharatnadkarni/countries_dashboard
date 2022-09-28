@@ -1,19 +1,11 @@
-@font-face {font-family: "GT America Light";
-    src: url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.eot"); /* IE9*/
-    src: url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.woff2") format("woff2"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.woff") format("woff"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/76cad44852ba93f820a16d446f80c5e2.svg#GT America Light") format("svg"); /* iOS 4.1- */
+@font-face {
+    font-family: "GT America Light";
+    src: url("~assets/fonts/gt_america_light.ttf") format("truetype")
 }
 
-@font-face {font-family: "Druk Cyr";
-    src: url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.eot"); /* IE9*/
-    src: url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.woff2") format("woff2"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.woff") format("woff"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/e7d1af8e72502b31afdf671010e5898b.svg#Druk Cyr") format("svg"); /* iOS 4.1- */
+@font-face {
+    font-family: "Druk Cyr";
+    src: url("~assets/fonts/druk.ttf") format("truetype")
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,11 +112,34 @@ h4 {
     transition: 2s ease;
 }
 
+.mobile_search .mdi-menu-down {
+    margin-left: 10px !important;
+}
+
+.desktop_search fieldset{
+    border-color: #707070 !important;
+}
+.desktop_search input {
+    color: #707070 !important;
+}
+.desktop_search input::placeholder {
+    color: #707070 !important;
+}
+
 @media screen and (max-width: 960px)  {
     .container_card {
         height: 100%;
     }
     .details_row{
         padding: 20px;
+    }
+    .mobile_search fieldset {
+        border-color: #707070 !important;
+    }
+    .mobile_search input {
+        color: #707070 !important;
+    }
+    .mobile_search input::placeholder {
+        color: #707070 !important;
     }
 }

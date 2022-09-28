@@ -24,10 +24,14 @@ export default {
     ],
     script: [
       {
-        src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCCvN0wkrtBqyOAvF2NAmQlHDWrfMtxscg&libraries=places'
+        src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCCvN0wkrtBqyOAvF2NAmQlHDWrfMtxscg&libraries=places',
+        async: true, 
+        defer: true
       },
       {
-        src: 'https://www.gstatic.com/charts/loader.js'
+        src: 'https://www.gstatic.com/charts/loader.js',
+        async: true, 
+        defer: true
       }
     ]
     
