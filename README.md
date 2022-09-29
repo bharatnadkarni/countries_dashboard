@@ -1,5 +1,7 @@
 # countries_dashboard
 
+Demo Link - https://rad-cannoli-2d2d3e.netlify.app
+
 The countries dashboard project shows a list of countries and the country details. The following have been used to display various types of integrations and methodologies -
 
 1. Google Places (Maps) API has been used to fetch the images for the country.

@@ -104,6 +104,7 @@
 <script>
 import ImageCarousel from '~/components/ImageCarousel.vue'
 import * as Vibrant from 'node-vibrant'
+import constants from '~/utils/constants.json'
 export default {
   components: { ImageCarousel },
   props: {
@@ -177,7 +178,7 @@ export default {
 
       google.charts.load('current', {
         packages: ['geochart', 'corechart'],
-        mapsApiKey: 'AIzaSyCCvN0wkrtBqyOAvF2NAmQlHDWrfMtxscg',
+        mapsApiKey: constants.MAPS_API_KEY,
       })
 
       google.charts.setOnLoadCallback(() => {

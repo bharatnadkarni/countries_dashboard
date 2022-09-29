@@ -2,5 +2,6 @@
     "HELLO_WORLD": "HELLO WORLD",
     "ALL_COUNTRIES": "https://restcountries.com/v3.1/all?fields=name,flags",
     "COUNTRY_SEARCH": "https://restcountries.com/v3.1/name",
-    "SINGLE_COUNTRY": "https://restcountries.com/v3.1/name"
+    "SINGLE_COUNTRY": "https://restcountries.com/v3.1/name",
+    "MAPS_API_KEY": "AIzaSyCCvN0wkrtBqyOAvF2NAmQlHDWrfMtxscg"
 }
